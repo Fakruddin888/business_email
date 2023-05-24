@@ -1,0 +1,44 @@
+.SignUp_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+    justify-content: center;
+    background-color: burlywood;
+}
+.signUp_group{
+    width: 50vw;
+    height:70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkcyan;
+}
+
+.input-field label{
+    color: black;
+}
+.input-field input{
+    width: 50vw;
+    font-size: 5px;
+   
+}
+.input-field .btn{
+    margin: 5px;
+    border: none;
+    padding: 5px;
+}
+.password_div{
+    display: flex;
+}
+.showPass{
+   
+height: 26px;
+ background-color: #1d78e1;
+}
+.password_div{
+   
+
+}

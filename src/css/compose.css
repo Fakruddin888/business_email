@@ -1,0 +1,102 @@
+.compose{
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    width: 200px;
+     border-radius: 4px 4px 0 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px rgb(51 51 51/50% );
+    background-color: #fff;
+    border: 1px solid black;
+}
+.compose__header{
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: #fff;
+    align-items: center;
+    padding: 5px 10px;
+}
+.compose__header__left span{
+    font-size: 10px;
+}
+.compose__header__left{
+    display: flex;
+    align-items: center;  
+}
+.compose__header__right{
+    display: flex;
+    align-items: center;
+}
+.compose .compose__header .compose__header__right svg{
+   font-size: 14px; 
+   margin-left: 10px;
+   transition: 0.2s linear 0s;
+   padding: 2px;
+}
+.compose__header__right svg:nth-child(2) path{
+    transform: rotate(45deg);
+    transform-origin: center ;
+}
+.compose .compose__header .compose__header__right svg:hover{
+    background: #545454;
+}
+.compose__body{
+    height: 60vh;
+    display: flex;
+}
+.compose__bodyform{
+    
+    display: flex;
+    flex-direction: column;
+}
+.compose__bodyform input, textarea{
+    width: 100%;
+    height: 40px;
+    font-size: 5px;
+
+    outline: none;
+    border: 0px;
+    padding: 0px 20px;
+}
+.compose__bodyform input{
+    width: 300px;
+    height: 11px;
+    border-bottom: 1px solid whitesmoke;
+}
+ ::placeholder{
+    font-size: 5px;
+ }
+.compose__bodyform textarea{
+    height:auto ;
+   
+}
+.compose__footer{
+    display: flex;
+    justify-content: space-between;
+}
+.compose__footerLeft button{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+    border: 0px;
+    outline: 0;
+    padding: 2px;
+    color: #fff;
+    background-color: rgb(51, 26, 196);
+}
+.compose__footerLeft svg{
+    font-size: 10px;
+}
+.compose__footerRight svg{
+    color: rgb(101, 97, 97);
+    font-size: 10px;
+    margin-right: 2px;
+}
+.compose__footerRight svg:hover{
+    background-color: #fff;
+    color: black;
+}
+
+

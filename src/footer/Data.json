@@ -1,0 +1,30 @@
+{
+    "English":{
+        "title":"Webmail",
+        "login":"Login",
+        "email":"Email",
+        "password":"Password",
+        "submit":"Submit"
+    },
+    "Tamil":{
+        "title":"வெப்மெயில்",
+        "login":"உள்நுழைய",
+        "email":"மின்னஞ்சல்",
+        "password":"கடவுச்சொல்",
+        "submit":"சமர்ப்பிக்க"
+    },
+    "Hindi":{
+        "title":"वेबमेल",
+        "login":"लॉग इन करें",
+        "email":"ईमेल",
+        "password":"पासवर्ड",
+        "submit":"जमा करना"
+    },
+    "Arabic":{
+        "title":"عنوان",
+        "login":"تسجيل الدخول",
+        "email":"بريد إلكتروني",
+        "password":"كلمة المرور",
+        "submit":"يُقدِّم"
+    }
+}

@@ -1,0 +1,25 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+
+.compose_btn{
+    padding: 5px 10px !important;
+    border-radius: 4px !important;
+    box-shadow: 2px 2px 3px rgb(234, 220, 220);
+    max-width: 150px;
+    margin-left: 5px !important;
+}
+.sidebar .MuiButtonBase-root{
+    width: 80px;
+    height: 20px;
+    font-size: 8px;
+}
+/* .sidebar .MuiButton-startIcon{
+    font-size: -small; 
+} */
+.sidebar .sidebarOption-heading{
+    font-size: 12px;
+  margin: 0;
+  margin-left: 20px;
+}
